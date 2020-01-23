@@ -46,29 +46,31 @@
   };
 </script>
 
-  <meta name="description" content="clark&#39;s blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Clark&#39;s notes">
-<meta property="og:url" content="http://clark0.github.io/index.html">
+  <meta name="description" content="Union FindDefinition 合并: 合并两个集合 查找: 判断两个元素是否属于一个集合  12father[i] 表示元素i的父亲结点father[i] &#x3D; i 表示元素i是集合的根结点 OperationInitialization每个元素都是独立的集合 123for (int i &#x3D; 1; i &lt;&#x3D; N; i++) &amp;#123;	father[i] &#x3D; i;&amp;#125; F">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Union Find">
+<meta property="og:url" content="http://clark0.github.io/2020/01/23/first-post/index.html">
 <meta property="og:site_name" content="Clark&#39;s notes">
-<meta property="og:description" content="clark&#39;s blog">
+<meta property="og:description" content="Union FindDefinition 合并: 合并两个集合 查找: 判断两个元素是否属于一个集合  12father[i] 表示元素i的父亲结点father[i] &#x3D; i 表示元素i是集合的根结点 OperationInitialization每个元素都是独立的集合 123for (int i &#x3D; 1; i &lt;&#x3D; N; i++) &amp;#123;	father[i] &#x3D; i;&amp;#125; F">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-01-23T14:22:19.000Z">
+<meta property="article:modified_time" content="2020-01-23T15:18:13.448Z">
 <meta property="article:author" content="clark">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://clark0.github.io/">
+<link rel="canonical" href="http://clark0.github.io/2020/01/23/first-post/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false
+    isHome: false,
+    isPost: true
   };
 </script>
 
-  <title>Clark's notes</title>
+  <title>Union Find | Clark's notes</title>
   
 
 
@@ -163,10 +165,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
     <link itemprop="mainEntityOfPage" href="http://clark0.github.io/2020/01/23/first-post/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -180,8 +182,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/23/first-post/" class="post-title-link" itemprop="url">Union Find</a>
+          Union Find
         </h1>
 
         <div class="post-meta">
@@ -206,7 +207,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Union-Find"><a href="#Union-Find" class="headerlink" title="Union Find"></a>Union Find</h1><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><ul>
+        <h1 id="Union-Find"><a href="#Union-Find" class="headerlink" title="Union Find"></a>Union Find</h1><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><ul>
 <li>合并: 合并两个集合</li>
 <li>查找: 判断两个元素是否属于一个集合</li>
 </ul>
@@ -247,24 +248,26 @@
 
 
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
+
+        
       </footer>
+    
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -315,6 +318,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Union-Find"><span class="nav-number">1.</span> <span class="nav-text">Union Find</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Definition"><span class="nav-number">1.1.</span> <span class="nav-text">Definition</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Operation"><span class="nav-number">1.2.</span> <span class="nav-text">Operation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Initialization"><span class="nav-number">1.2.1.</span> <span class="nav-text">Initialization</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Find"><span class="nav-number">1.2.2.</span> <span class="nav-text">Find</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Union"><span class="nav-number">1.2.3.</span> <span class="nav-text">Union</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#路径压缩"><span class="nav-number">1.3.</span> <span class="nav-text">路径压缩</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
